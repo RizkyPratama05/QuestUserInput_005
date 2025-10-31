@@ -36,7 +36,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun FormDataDiri(modifier: Modifier){
-   Column(modifier = Modifier.fillMaxSize().background(color = colorResource(R.color.purple_500))) {
+   Column(modifier = Modifier.fillMaxSize().background(color = Color.Red)) {
        var textNama by remember { mutableStateOf(value = "") }
        var textAlamat by remember { mutableStateOf(value = "") }
        var textJk by remember { mutableStateOf(value = "") }
