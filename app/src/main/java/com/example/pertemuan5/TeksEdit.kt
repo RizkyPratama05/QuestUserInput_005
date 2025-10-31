@@ -37,3 +37,13 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun FormDataDiri(modifier: Modifier){
    Column(modifier = Modifier.fillMaxSize().background(color = colorResource(R.color.purple_500))) {
+       var textNama by remember { mutableStateOf(value = "") }
+       var textAlamat by remember { mutableStateOf(value = "") }
+       var textJk by remember { mutableStateOf(value = "") }
+
+       var nama by remember { mutableStateOf(value = "") }
+       var alamat by remember { mutableStateOf(value = "") }
+       var jk by remember { mutableStateOf(value = "") }
+
+       val gender: List<String> = listOf("Laki-laki", "Perempuan")
+
