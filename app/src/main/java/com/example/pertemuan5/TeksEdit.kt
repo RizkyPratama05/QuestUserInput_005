@@ -125,3 +125,13 @@ fun FormDataDiri(modifier: Modifier){
                colors = CardDefaults.cardColors(containerColor = Color.White),
                modifier = Modifier.height(100.dp).width(300.dp)
            ) {
+               Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp)) {
+                   Text(text = "Nama : $nama")
+                   Text(text = "Gender : $jk")
+                   Text(text = "Alamat : $alamat")
+
+               }
+           }
+       }
+   }
+}
