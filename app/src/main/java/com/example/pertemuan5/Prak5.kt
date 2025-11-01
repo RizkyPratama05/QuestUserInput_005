@@ -115,6 +115,12 @@ fun FormRegistrasi(modifier: Modifier) {
             }
         }
 
+        Image(
+            modifier = Modifier.fillMaxSize(),
+            painter = painterResource(id = R.drawable.bgbiru),
+            contentDescription = null,
+            contentScale = ContentScale.Crop
+        )
 
 
 
