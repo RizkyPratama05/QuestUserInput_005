@@ -109,6 +109,12 @@ fun FormRegistrasi(modifier: Modifier) {
 
 
 
+        LaunchedEffect(key1 = datePickerState.selectedDateMillis) {
+            datePickerState.selectedDateMillis?.let { millis ->
+                textTanggal = convertMillisToDate(millis)
+            }
+        }
+
 
 
 
