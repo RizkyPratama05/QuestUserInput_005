@@ -121,6 +121,14 @@ fun FormRegistrasi(modifier: Modifier) {
             contentDescription = null,
             contentScale = ContentScale.Crop
         )
+        Text(
+            text = stringResource(id = R.string.registrasi),
+            fontSize = 30.sp,
+            color = Color.White,
+            fontWeight = FontWeight.Bold,
+            fontFamily = FontFamily.SansSerif,
+            modifier = Modifier.padding(top = 60.dp, start = 100.dp)
+        )
 
 
 
