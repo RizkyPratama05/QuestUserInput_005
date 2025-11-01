@@ -164,6 +164,8 @@ fun FormRegistrasi(modifier: Modifier) {
                     }
                 )
 
+                Spacer(modifier = Modifier.height(10.dp))
+
 
 
 
