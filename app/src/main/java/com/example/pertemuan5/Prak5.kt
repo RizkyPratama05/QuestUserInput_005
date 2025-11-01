@@ -153,6 +153,17 @@ fun FormRegistrasi(modifier: Modifier) {
                         textNama = it
                     }
                 )
+                OutlinedTextField(
+                    value = textAsal,
+                    singleLine = true,
+                    shape = MaterialTheme.shapes.extraLarge,
+                    modifier = Modifier.width(width = 320.dp).padding(top = 20.dp),
+                    label = { Text(text = "Kota Asal", color = Color.White) },
+                    onValueChange = {
+                        textAsal = it
+                    }
+                )
+
 
 
 
