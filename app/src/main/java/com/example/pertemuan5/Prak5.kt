@@ -139,6 +139,10 @@ fun FormRegistrasi(modifier: Modifier) {
                 )
             ),
         ) {
+            Column(
+                modifier = Modifier, horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Top,
+            ) {
 
 
 
