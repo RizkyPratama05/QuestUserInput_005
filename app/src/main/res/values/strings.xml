@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Pertemuan5</string>
     <string name="submit">Submit</string>
+    <string name="registrasi">Form Registrasi</string>
+    <string name="JK">Jenis Kelamin</string>
 </resources>
