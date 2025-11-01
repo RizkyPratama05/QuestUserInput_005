@@ -143,6 +143,16 @@ fun FormRegistrasi(modifier: Modifier) {
                 modifier = Modifier, horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Top,
             ) {
+                OutlinedTextField(
+                    value = textNama,
+                    singleLine = true,
+                    shape = MaterialTheme.shapes.extraLarge,
+                    modifier = Modifier.width(width = 320.dp).padding(top = 50.dp),
+                    label = { Text(text = "Nama Lengkap", color = Color.White) },
+                    onValueChange = {
+                        textNama = it
+                    }
+                )
 
 
 
