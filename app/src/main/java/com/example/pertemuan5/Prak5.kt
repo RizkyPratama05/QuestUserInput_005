@@ -129,6 +129,16 @@ fun FormRegistrasi(modifier: Modifier) {
             fontFamily = FontFamily.SansSerif,
             modifier = Modifier.padding(top = 60.dp, start = 100.dp)
         )
+        Card(
+            modifier = Modifier.padding(top = 120.dp, start = 20.dp, end = 20.dp).fillMaxWidth()
+                .height(height = 680.dp),
+            shape = MaterialTheme.shapes.extraLarge,
+            colors = CardDefaults.cardColors(
+                containerColor = Color.White.copy(
+                    alpha = 0.4f
+                )
+            ),
+        ) {
 
 
 
