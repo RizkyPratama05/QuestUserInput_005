@@ -216,5 +216,17 @@ fun FormRegistrasi(modifier: Modifier) {
 
                     Spacer(modifier = Modifier.width(8.dp))
 
+                    OutlinedTextField(
+                        value = textRW,
+                        onValueChange = { textRW = it },
+                        label = { Text("RW", color = Color.White) },
+                        singleLine = true,
+                        modifier = Modifier
+                            .weight(0.6f)
+                            .height(64.dp)
+                    )
+                }
+
+
 
 
