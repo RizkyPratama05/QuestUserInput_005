@@ -192,5 +192,7 @@ fun FormRegistrasi(modifier: Modifier) {
                             .height(64.dp)
                     )
 
+                    Spacer(modifier = Modifier.width(12.dp))
+
 
 
