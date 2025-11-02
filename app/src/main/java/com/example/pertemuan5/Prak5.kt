@@ -310,4 +310,25 @@ fun FormRegistrasi(modifier: Modifier) {
                     )
                 }
 
+                Button(
+                    modifier = Modifier.fillMaxWidth()
+                        .padding(start = 100.dp, end = 90.dp, top = 40.dp)
+                        .height(height = 50.dp),
+                    enabled = validasi.value,
+                    onClick = {
+                        nama = textNama
+                        asal = textAsal
+                        jk = textJk
+                        tanggal = textTanggal
+                        rt = textRT
+                        rw = textRW
+                        umur = textUmur
 
+                        showDialog = true
+                    }) {
+                    Text(text = stringResource(id = R.string.submit))
+                }
+            }
+        }
+    }
+}
