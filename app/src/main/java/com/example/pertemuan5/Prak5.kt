@@ -167,5 +167,12 @@ fun FormRegistrasi(modifier: Modifier) {
                 Spacer(modifier = Modifier.height(10.dp))
 
 
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
+                ) {
 
 
