@@ -204,5 +204,17 @@ fun FormRegistrasi(modifier: Modifier) {
                             .height(64.dp)
                     )
 
+                    Spacer(modifier = Modifier.width(8.dp))
+
+                    VerticalDivider(
+                        modifier = Modifier
+                            .height(50.dp)
+                            .padding(top = 8.dp),
+                        color = Color.Gray,
+                        thickness = 1.dp
+                    )
+
+                    Spacer(modifier = Modifier.width(8.dp))
+
 
 
