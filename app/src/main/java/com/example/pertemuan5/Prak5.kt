@@ -249,6 +249,17 @@ fun FormRegistrasi(modifier: Modifier) {
                 }
 
 
+                OutlinedTextField(
+                    value = textUmur,
+                    singleLine = true,
+                    shape = MaterialTheme.shapes.extraLarge,
+                    modifier = Modifier.width(width = 320.dp).padding(top = 20.dp),
+                    label = { Text(text = "Umur", color = Color.White) },
+                    onValueChange = {
+                        textUmur = it
+                    }
+                )
+
 
 
 
