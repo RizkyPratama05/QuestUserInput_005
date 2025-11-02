@@ -227,6 +227,28 @@ fun FormRegistrasi(modifier: Modifier) {
                     )
                 }
 
+                if (showDatePicker) {
+                    Popup(
+                        onDismissRequest = { showDatePicker = false },
+                        alignment = Alignment.TopCenter
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .offset(y = 64.dp)
+                                .shadow(elevation = 4.dp)
+                                .background(MaterialTheme.colorScheme.surface)
+                                .padding(16.dp)
+                        ) {
+                            DatePicker(
+                                state = datePickerState,
+                                showModeToggle = false
+                            )
+                        }
+                    }
+                }
+
+
 
 
 
