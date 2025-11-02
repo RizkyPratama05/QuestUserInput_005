@@ -174,5 +174,23 @@ fun FormRegistrasi(modifier: Modifier) {
                         .fillMaxWidth()
                         .padding(horizontal = 16.dp, vertical = 8.dp)
                 ) {
+                    OutlinedTextField(
+                        value = selectedDate,
+                        onValueChange = { },
+                        label = { Text("Tanggal Lahir", color = Color.White) },
+                        readOnly = true,
+                        trailingIcon = {
+                            IconButton(onClick = { showDatePicker = !showDatePicker }) {
+                                Icon(
+                                    painter = painterResource(id = R.drawable.ic_launcher_foreground),
+                                    contentDescription = "Pilih tanggal"
+                                )
+                            }
+                        },
+                        modifier = Modifier
+                            .weight(1.5f)
+                            .height(64.dp)
+                    )
+
 
 
