@@ -269,6 +269,30 @@ fun FormRegistrasi(modifier: Modifier) {
 
                 Spacer(modifier = Modifier.height(height = 10.dp))
 
+                Row {
+                    gender.forEach { item ->
+                        Row(
+                            modifier = Modifier
+                                .selectable(
+                                    selected = textJk == item,
+                                    onClick = {
+                                        textJk = item
+                                    }
+                                ),
+                            verticalAlignment = Alignment.CenterVertically) {
+                            RadioButton(
+                                selected = textJk == item,
+                                onClick = {
+                                    textJk = item
+                                })
+                            Text(
+                                text = item,
+                                color = Color.White,
+                                fontSize = 20.sp
+                            )
+                        }
+                    }
+                }
 
 
 
