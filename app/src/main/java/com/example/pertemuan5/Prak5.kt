@@ -294,5 +294,20 @@ fun FormRegistrasi(modifier: Modifier) {
                     }
                 }
 
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Checkbox(
+                        checked = validasi.value,
+                        onCheckedChange = { newValue ->
+                            validasi.value = newValue
+                        }
+                    )
+                    Text(
+                        text = "Saya sudah mengisi semua form",
+                        fontSize = 15.sp,
+                        color = Color.White,
+                    )
+                }
 
 
