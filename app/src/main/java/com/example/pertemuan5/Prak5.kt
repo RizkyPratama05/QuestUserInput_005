@@ -260,6 +260,15 @@ fun FormRegistrasi(modifier: Modifier) {
                     }
                 )
 
+                Text(
+                    modifier = Modifier.padding(end = 150.dp, top = 20.dp),
+                    text = stringResource(R.string.JK),
+                    fontWeight = FontWeight.SemiBold,
+                    fontSize = 20.sp
+                )
+
+                Spacer(modifier = Modifier.height(height = 10.dp))
+
 
 
 
